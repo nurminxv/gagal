@@ -1,0 +1,21 @@
+
+print('\033[33;1m')
+intruksi=input('==>teken enter untuk masuk')
+nama=input('>nama:')
+umur=int(input('>umur:'))
+masukan_no_handpone=input('>masukan no handpone:')
+maukan_pasword=input('>masukan pasword:')
+kabupaten_kota=input('>kabupaten/kota:')
+kecamatan=input('>kecamatan:')
+kelurahan=input('>kelurahan:')
+desa=input('>desa:')
+kampung=input('>kampung:')
+RT_RW=input('>RT/RW:')
+kode_pos=input('>kode pos:')
+no_kk=input('>no kk:')
+nik=input('>nik:')
+print('\n============================================================')
+if umur >= 20 and umur <= 35:
+	print('selamat',nama,'anda di terima di perusahaan kami')
+else:
+	print('maaf',nama,'anda tidak lolos!! karna muka anda terlalu jelek silahkan coba lagi jika ada lowongan kembali.')
